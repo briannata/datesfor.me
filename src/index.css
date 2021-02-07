@@ -28,25 +28,25 @@
 }
 
 body {
-  position: relative; 
-  height: 100vh;
-  width: 100vw;
+  position: absolute; 
   display: flex;
+  top: 50%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 body::before {    
-    content: "";
-    background-image: url('./img/1.jpg');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-    border: 0;
+  content: "";
+  background-image: url('./img/1.jpg');
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.75;
 }
 
 h1 {
