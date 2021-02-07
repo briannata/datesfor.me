@@ -20,7 +20,7 @@
   text-align: center;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -66,4 +66,45 @@ h3 {
   line-height: 25px;
   color: black;
   text-align: center;
+}
+
+p {
+  font-family: "Varela Round";
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.borderbox {
+  background-color: rgba(255, 255, 255, 1);
+  width: 70vw;
+  min-height: 80vh;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  -ms-transform: translate(-45%, -50%);
+  transform: translate(-50%, -50%);
+  top: 20vh;
+}
+
+.card {
+  background-color: #F7C7DB;
+  padding: 5vw;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 40vh;
+  width: 40vw;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
