@@ -9,7 +9,21 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border-radius: 5px;
-  background-color: #e6c6c5;
+  background-color: #F7C7DB;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.textbox {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 10px 16px;
+  text-align: center;
+  font-family: "Varela Round";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border-radius: 5px;
+  background-color: #F7C7DB;
   color: black;
   margin-bottom: 20px;
 }
@@ -33,7 +47,6 @@ body {
   top: 50%;
   width: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -68,7 +81,7 @@ h3 {
   text-align: center;
 }
 
-p {
+h4 {
   font-family: "Varela Round";
   font-size: 24px;
   color: black;
@@ -77,34 +90,45 @@ p {
   padding: 0;
 }
 
+p {
+  font-family: "Varela Round";
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 .borderbox {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.7);
   width: 70vw;
-  min-height: 80vh;
+  min-height: 90vh;
   text-align: center;
   margin: 0;
   position: absolute;
   -ms-transform: translate(-45%, -50%);
   transform: translate(-50%, -50%);
-  top: 20vh;
+  top: 10vh;
+  border-radius: 25px;
 }
 
 .card {
   background-color: #F7C7DB;
-  padding: 5vw;
+  padding: 3vw;
   text-align: center;
   margin: 0;
-  position: absolute;
+  margin-left: 12vw;
   top: 40vh;
   width: 40vw;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   border-radius: 25px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 12px 12px 2px 1px rgba(142, 81, 141, .3);
 }
 
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.leftAlign {
+  text-align: left;
 }

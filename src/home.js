@@ -12,7 +12,7 @@ export default class TitlePage extends React.Component {
             <h1>Date Idea Generator</h1>
             <h3>Click start to generate a list of fun dates!</h3>
             <form style={{textAlign: "center"}}>
-            <button onClick={() => history.push('/datelist')} class="btn">Start</button>
+              <button onClick={() => history.push('/datelist')} class="btn">Start</button>
             </form>
         </div>
     )
